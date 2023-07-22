@@ -1,0 +1,6 @@
+1. find . -iname "*What I Call Music*" -type d > list
+2. find . -name "*" | xargs grep -i ".*deewana.*" 2>/dev/null
+
+
+3. To get list of directories and subdiretories
+    find . -type d -print
